@@ -118,7 +118,8 @@ namespace WebApi.ServiceLayer.Svc
             { new Product { ProductID =1, ProductName="Apple", Price=100, Quantity=2},
                  new Product { ProductID =2, ProductName="Samsung", Price=90, Quantity=2},
                   new Product { ProductID =3, ProductName="Moto", Price=70, Quantity=2},
-                   new Product { ProductID =4, ProductName="Nokia", Price=60, Quantity=2}
+                   new Product { ProductID =4, ProductName="Nokia", Price=60, Quantity=2},
+                   new Product { ProductID =5, ProductName="Deployment", Price=60, Quantity=2}
             };
             return iProducts;
         }
